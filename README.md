@@ -43,6 +43,9 @@ $ yarn run start:dev
 
 # production mode
 $ yarn run start:prod
+
+# also you can run the app with swagger documentation
+http://localhost:3000/api
 ```
 
 ## Test

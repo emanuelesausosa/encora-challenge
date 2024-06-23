@@ -19,7 +19,6 @@ export class UserController {
 
   @Get('user/:id')
   getUserById(id: string) {
-    console.log(id);
     return this.userService.getUserById(id);
   }
 }
